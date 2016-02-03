@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [First Chapter](chapter1.md)
-* Cheat Sheets
+* [Cheat Sheets](cheat_sheets.md)
 
