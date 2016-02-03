@@ -1,20 +1,23 @@
 # Classes Design
-## 1. Fiber1:
-### properties
+
+### 1. Fiber1:
+#### properties
 - propertyStruct
 - propertyTable
-- 
-### methods:
+
+#### methods:
 
 
 
 ## 2. FiberLib:
+FiberLib stores fiber names, and an array of fiber objects.
+
 ### properties:
 ~~libStruct~~
-
 ~~-ttee~~
-- libTable (dependent)
-- 
+~~- libTable (dependent)~~
+
+- itemArray: [] array of fiber objects
 - itemNames :{}, a cell containing item names
 - selectedItem: string, item name
 
@@ -23,6 +26,7 @@
 - addItem
 - deleteItem
 - showOnGui
+-
 
 ~~~matlab
 x2 = eval(A);
