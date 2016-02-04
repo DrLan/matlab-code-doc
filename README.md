@@ -1,3 +1,9 @@
 # My Awesome Book
 
-This file serves as your book's preface, a great place to describe your book's content and ideas.
+work flow:
+1. generate 2D cross section area
+2. generate SPICE netlist for 3D structure
+3. compute using LTSPICE
+4. return results
+
+
