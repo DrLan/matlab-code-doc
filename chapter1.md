@@ -28,15 +28,16 @@ FiberLib stores fiber names, and an array of fiber objects.
 - showOnGui
 -
 
+
+##3. classdef Laminate1
 ~~~matlab
-x2 = eval(A);
-
-if isnumeric(x2) && isa(x2, 'int16') && all(x2 == x1)
-   disp 'Conversion back to int16 worked'
-end
-
+    %% usage example:
+    properties        
+        propertyCell = {};
+        parameterCell = {};
+        propertyStruct = struct;
+        parameterStruct = struct;
 ~~~
-
 
 
 
