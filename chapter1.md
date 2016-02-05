@@ -37,6 +37,12 @@ FiberLib stores fiber names, and an array of fiber objects.
         parameterCell = {};
         propertyStruct = struct;
         parameterStruct = struct;
+        
+    methods:
+        xResistivity = getXResistivity(obj);
+        yResistivity = getYResistivity(obj);
+        zResistivity = getZResistivity(obj);
+        resistivityTensor = clacResistivityTensor(obj);
 ~~~
 
 
