@@ -46,4 +46,10 @@ FiberLib stores fiber names, and an array of fiber objects.
 ~~~
 
 
+## Folder structure
+###- v08
+#### -- SPICE
+#### __ 
+- -
+
 
